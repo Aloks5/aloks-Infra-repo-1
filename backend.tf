@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "aloks-aws-tf-state-bucket-new"
+    bucket = "my-aws-tf-state-bucket-updated"
     key = "network/terraform.tfstate"
     region = "eu-central-1"
     dynamodb_table = "my-dynamo-db-table"
