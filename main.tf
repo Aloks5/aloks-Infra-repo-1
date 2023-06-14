@@ -3,9 +3,9 @@
 #}
 
 provider "aws" {
-  region = var.aws_region
-  access_key = "AKIAW4N64SK7AGLGZWTP"
-  secret_key = "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"  
+  region = "eu-central-1"
+  # access_key = "AKIAW4N64SK7AGLGZWTP"
+  # secret_key = "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"  
   # Configuration options
 }
 
